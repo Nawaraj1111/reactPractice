@@ -24,3 +24,10 @@ button{
     font-size: 25px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(246, 239, 239);
+    font-size: 20px;
+}
