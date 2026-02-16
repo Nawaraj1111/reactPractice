@@ -28,6 +28,9 @@ return (
          <button onClick={handleIncrement}>+</button>
          <button onClick={handleDecrement}>-</button>
          <button onClick={handleReset}>Reset</button>
+         <div>
+                <p>copyright @{new Date().getFullYear()}</p>
+         </div>
     </div>
     )
 }
