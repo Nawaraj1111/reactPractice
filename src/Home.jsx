@@ -18,7 +18,7 @@ export const Home = (props) => {
             setValue(0);
     }
     const setColor = {
-        color: value > 0 ? 'green' : value < 0 ? 'red' : 'black'
+        color: value > 0 ? 'green' : value < 0 ? 'red' : 'yellow'
         }       
 return (
     <div className='home-list'>
